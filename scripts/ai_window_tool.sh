@@ -52,7 +52,7 @@ GROUP_A_IDS=(
 )
 GROUP_A_BOUNDS="0,30,3008,1662"
 GROUP_A_WINDOW_SCALE="1.0"
-GROUP_A_HEIGHT_SCALE="0.8"
+GROUP_A_HEIGHT_SCALE="0.9"
 
 # "right" or "left" (monitor 2 position relative to monitor 1)
 SECOND_MONITOR_SIDE="${SECOND_MONITOR_SIDE:-right}"
@@ -67,7 +67,7 @@ else
   GROUP_B_BOUNDS="3008,30,6016,1662"
 fi
 GROUP_B_WINDOW_SCALE="1.0"
-GROUP_B_HEIGHT_SCALE="0.8"
+GROUP_B_HEIGHT_SCALE="0.9"
 
 # Delay (seconds) after opening windows in `start` mode.
 OPEN_SETTLE_SECONDS="${OPEN_SETTLE_SECONDS:-1.0}"
